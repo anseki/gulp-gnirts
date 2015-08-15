@@ -1,6 +1,6 @@
 {
   "name": "gulp-gnirts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "title": "gulp-gnirts",
   "description": "Obfuscate the string literal in the JavaScript code.",
   "keywords": [
