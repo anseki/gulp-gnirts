@@ -1,0 +1,37 @@
+{
+  "name": "gulp-gnirts",
+  "version": "0.1.0",
+  "title": "gulp-gnirts",
+  "description": "Obfuscate the string literal in the JavaScript code.",
+  "keywords": [
+    "gulpplugin",
+    "mangle",
+    "obfuscate",
+    "obfuscator",
+    "obfuscation",
+    "string",
+    "literal",
+    "security",
+    "password",
+    "secret"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1",
+    "gnirts": "~0.1.0"
+  },
+  "homepage": "https://github.com/anseki/gulp-gnirts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anseki/gulp-gnirts.git"
+  },
+  "bugs": "https://github.com/anseki/gulp-gnirts/issues",
+  "license": "MIT",
+  "author": {
+    "name": "anseki",
+    "url": "https://github.com/anseki"
+  }
+}
