@@ -13,7 +13,9 @@ module.exports = function() {
       return callback(new gutil.PluginError('gulp-gnirts', 'Streaming not supported'));
     }
 
-    file.contents = new Buffer(gnirts.mangle(file.contents.toString()));
+    var content = gnirts.mangle(file.contents.toString());
+    // Check `allocUnsafe` to make sure of the new API.
+    file.contents = Buffer.allocUnsafe && Buffer.from ? Buffer.from(content) : new Buffer(content);
     callback(null, file);
   });
 };
