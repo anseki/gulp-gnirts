@@ -2,7 +2,7 @@
   "name": "gulp-gnirts",
   "version": "1.0.0",
   "title": "gulp-gnirts",
-  "description": "Obfuscate the string literal in the JavaScript code.",
+  "description": "Obfuscate string literals in JavaScript code.",
   "keywords": [
     "gulpplugin",
     "mangle",
