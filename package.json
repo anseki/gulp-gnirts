@@ -21,7 +21,7 @@
   "dependencies": {
     "gulp-util": "^3.0.8",
     "through2": "^2.0.3",
-    "gnirts": "~0.4.6"
+    "gnirts": "~1.1.1"
   },
   "homepage": "https://github.com/anseki/gulp-gnirts",
   "repository": {
