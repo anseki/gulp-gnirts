@@ -1,6 +1,6 @@
 {
   "name": "gulp-gnirts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "title": "gulp-gnirts",
   "description": "Obfuscate string literals in JavaScript code.",
   "keywords": [
@@ -21,7 +21,7 @@
   "dependencies": {
     "gulp-util": "^3.0.8",
     "through2": "^2.0.3",
-    "gnirts": "^1.1.1"
+    "gnirts": "^1.1.3"
   },
   "homepage": "https://github.com/anseki/gulp-gnirts",
   "repository": {
