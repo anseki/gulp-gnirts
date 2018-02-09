@@ -1,6 +1,6 @@
 'use strict';
 
-var gutil = require('gulp-util'),
+var PluginError = require('plugin-error'),
   through = require('through2'),
   gnirts = require('gnirts');
 
@@ -10,7 +10,7 @@ module.exports = function() {
       return callback(null, file);
     }
     if (file.isStream()) {
-      return callback(new gutil.PluginError('gulp-gnirts', 'Streaming not supported'));
+      return callback(new PluginError('gulp-gnirts', 'Streaming not supported'));
     }
 
     var content = gnirts.mangle(file.contents.toString());
