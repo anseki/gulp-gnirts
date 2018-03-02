@@ -16,8 +16,7 @@
     "secret"
   ],
   "files": [
-    "index.js",
-    "LICENSE-MIT"
+    "index.js"
   ],
   "engines": {
     "node": ">= 0.8.0"
