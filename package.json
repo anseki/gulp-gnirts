@@ -23,7 +23,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "gnirts": "~1.1.7",
+    "gnirts": "^1.1.8",
     "plugin-error": "^1.0.1",
     "through2": "^4.0.2"
   },
